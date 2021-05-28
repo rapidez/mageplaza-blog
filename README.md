@@ -21,7 +21,7 @@ php artisan vendor:publish --provider="Rapidez\MageplazaBlog\MageplazaBlogServic
 
 ## Note
 
-Currently only the blog overview and post detail are implemented. These things are for example not implemented (yet):
+Currently only the blog overview and post detail are implemented. The features listed below are for example not implemented (yet) but feel free to build it and create a pull request.
 - Categories
 - Topics
 - Tags
