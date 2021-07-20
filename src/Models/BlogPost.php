@@ -16,8 +16,6 @@ class BlogPost extends Model
 
     protected static function booted()
     {
-        static::addGlobalScope('default', function (Builder $builder) {
-            $builder->where('enabled', 1);
-        });
+        static::addGlobalScope(new IsActiveScope('enabled'));
     }
 }
