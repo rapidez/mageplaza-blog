@@ -8,7 +8,7 @@
         <img src="{{ config('rapidez.media_url') }}/mageplaza/blog/post/{{ $post->image }}" alt="">
 
         <article class="my-5 prose prose-green max-w-none">
-            {!! $post->post_content !!}
+            @content($post->post_content)
         </article>
 
         <div class="text-sm text-gray-400">
