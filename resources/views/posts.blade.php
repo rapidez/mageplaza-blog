@@ -1,7 +1,7 @@
 @extends('rapidez::layouts.app')
 
-@section('title', Rapidez::config('blog/general/meta_title') ?: Rapidez::config('blog/general/name', 'Blog'))
-@section('description', Rapidez::config('blog/general/meta_description'))
+@section('title', Rapidez::config('blog/seo/meta_title') ?: Rapidez::config('blog/general/name', 'Blog'))
+@section('description', Rapidez::config('blog/seo/meta_description'))
 
 @section('content')
     <div class="container mx-auto mb-5">
