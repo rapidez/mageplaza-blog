@@ -4,7 +4,7 @@ namespace Rapidez\MageplazaBlog;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
-use Rapidez\Core\RapidezFacade as Rapidez;
+use Rapidez\Core\Facades\Rapidez;
 use Rapidez\MageplazaBlog\Models\BlogPost;
 
 class MageplazaBlogServiceProvider extends ServiceProvider
